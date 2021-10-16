@@ -43,3 +43,22 @@ ul li:hover{
     height: 350px;
 }
 
+#zImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 600px;
+}
+#bottomRight{
+    padding-right: 150px;
+    padding-top: 390px;
+    float: right;
+    width: 20%;
+    height: 20%;
+}
+
+.zlayout{
+    background: beige;
+}
+
