@@ -1,11 +1,18 @@
 .container{
-    clear:both;
     overflow:auto;
 }
+body{
+    background: aliceblue;
+}
+nav {
+    float:right;
+}
 
-nav{float:right;}
-
-.logo img{float:left;}
+.logo img {
+    float:left;
+    width: 200px;
+    height: 100px;
+}
 
 ul li{
     display: inline-block; padding:10px;
@@ -15,3 +22,24 @@ ul li{
 ul li:hover{
     color:darkred;
 }
+
+.left{
+    padding-top: 40px;
+    position: absolute;
+    left: auto;
+    width: 800px;
+}
+
+.right{
+    align-content: center;
+    padding-right: 300px;
+    padding-top: 40px;
+    right: auto;
+}
+
+.right img{
+    float: right;
+    width: 370px;
+    height: 350px;
+}
+
